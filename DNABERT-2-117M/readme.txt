@@ -1,0 +1,1 @@
+Put the DNABERT-2 model in this folder.
