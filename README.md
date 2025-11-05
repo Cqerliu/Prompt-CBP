@@ -46,7 +46,7 @@ Before training or prediction, download the DNABERT-2 base model.
 Download the pre-trained DNABERT-2 model from the [official repository](https://github.com/MAGICS-LAB/DNABERT_2) and place it in the `DNABERT-2-117M/` directory.
 
 ### Model Training
-Run the training script: You only need to run the train.py script to train the Prompt CBP model. We provide four different training strategies in this script. We also provide detailed annotation explanations in the script.
+Run the training script: You only need to run the train.py script to train the Prompt CBP model. We provide four different training strategies in this script. We also provide detailed annotation explanations in the script. The trained model can be obtained at the following link: https://drive.google.com/drive/folders/13CfosQnJgiVHrulrnJfNjiG-XWmfKt-U?usp=drive_link.
 
 Four training strategies are supported:
 1. Used for training baseline models.
@@ -76,4 +76,5 @@ peft==0.15.2
 scikit-learn==1.3.2
 numpy==1.26.4
 pandas==2.3.0
+
 ```
